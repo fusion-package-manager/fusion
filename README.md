@@ -99,20 +99,22 @@ This file provides the package manager with the following data:
       "platform": "windows/macos/linux or any specific linux distribution, just make sure the name you provide must match the one given at /etc/os-release of your target linux distribution",
       "platform-version": "target-platform-version",
       "platform-arch": "x64/x86/amd64",
-      "channels": {
-        "channel-type": "beta/alpha/stable/nightly",
-        "versions": [
-          {
-            "version": "1.0",
-            "status": "enabled",
-            "setup": [
-              "<links to program binaries or config files or a zip setup/>"
-            ],
-            "pre-download-script": "<link/>",
-            "post-download-script": "<link/>"
-          }
-        ]
-      }
+      "channels": [
+        {
+          "channel-type": "beta/alpha/stable/nightly",
+          "versions": [
+            {
+              "version": "1.0",
+              "status": "enabled",
+              "setup": [
+                "<links to program binaries or config files or a zip setup/>"
+              ],
+              "pre-download-script": "<link/>",
+              "post-download-script": "<link/>"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
