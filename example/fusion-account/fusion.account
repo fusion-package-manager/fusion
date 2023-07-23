@@ -1,0 +1,13 @@
+{
+  "display-name": "your-fusion-account-username",
+  "bio": "A package publisher company or an individual",
+  "active": true,
+  "packages": {
+    "awesome-app": {
+      "status": "enabled"
+    },
+    "dev-utility": {
+      "status": "disabled"
+    }
+  }
+}
